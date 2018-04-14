@@ -1,25 +1,29 @@
-<!DOCTYPE html>
-<html>
-<title>ASKLAB</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="<?php echo base_url();?>assets/css/w3.css">
-<link rel="stylesheet" href="<?php echo base_url();?>assets/css/w3-theme.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="<?php echo base_url();?>assets/ckeditor/ckeditor.js" type="text/javascript"></script>
-<style>
-  html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <title>ASKLAB</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/css/w3.css">
+  <link rel="stylesheet" href="<?php echo base_url();?>assets/css/w3-theme.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <script type="text/javascript" src="<? echo base_url();?>assets/tinymce/tinymce.min.js"></script>
+  <script>tinymce.init({ selector:'textarea' });</script> -->
+  <script src="<?php echo base_url();?>assets/ckeditor/ckeditor.js" type="text/javascript"></script>
+  <style>
+    html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
 
-  input{
-    font-family: sans-serif;
-    background-color: #CFCDCD;
-    color: black;
-    border: 1px solid black;  
-  }
-</style>
+    input{
+      font-family: sans-serif;
+      background-color: #CFCDCD;
+      color: black;
+      border: 1px solid black;  
+    }
+  </style>
+</head>
 <body class="w3-theme-l5">
-  <!-- Navbar -->
+
   <div class="w3-top">
    <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
@@ -42,7 +46,6 @@
   </div>
 </div>
 
-<!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
   <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
@@ -50,7 +53,7 @@
   <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
 </div>
 <div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
-  <!-- The Grid -->
+
   <div class="w3-row">
     <div class="w3-col m2">
       <div class="w3-card w3-round w3-white w3-center">
@@ -63,8 +66,7 @@
         </div>
       </div>
       <br>
-
-      <!-- <div class="w3-card w3-round w3-white w3-center">
+      <div class="w3-card w3-round w3-white w3-center">
         <div class="w3-container">
           <p>Friend Request</p>
           <img src="/w3images/avatar6.png" alt="Avatar" style="width:50%"><br>
@@ -79,16 +81,17 @@
           </div>
         </div>
       </div>
-      <br> -->
+      <br>
 
-      <!-- <div class="w3-card w3-round w3-white w3-padding-16 w3-center">
+      <div class="w3-card w3-round w3-white w3-padding-16 w3-center">
         <p>ADS</p>
       </div>
-      <br> -->
+      <br>
+
 
       <div class="w3-card w3-round w3-white w3-padding-32 w3-center">
         <p><i class="fa fa-bug w3-xxlarge"></i></p>
       </div>
 
-      <!-- End Right Column -->
+      
     </div>

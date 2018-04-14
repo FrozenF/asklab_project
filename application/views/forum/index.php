@@ -77,7 +77,7 @@
   <h4><?= $key->judul_pertanyaan ?></h4><br>
   <p><?= $key->isi = substr(strip_tags($key->isi), 0, 150)."..."; ?></p>
   <button type="button" class="w3-button w3-blue w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
-  <button type="button" class="w3-button w3-green w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
+  <a type="button" class="w3-button w3-green w3-margin-bottom" href="<?= base_url();?>comment/<?= $key->id_pertanyaan;?>"><i class="fa fa-comment"></i>  Comment</a>
   <a href="<?php echo base_url(); ?>forum/form_edit/<?echo $key->id_pertanyaan;?>" type="button" class="w3-button  w3-orange w3-margin-bottom"><i class="fa fa-edit"></i>  Edit</a> 
   <a href="<?php echo base_url(); ?>forum/hapus/<?echo $key->id_pertanyaan;?>" type="button" class="w3-button  w3-red w3-margin-bottom"><i class="fa fa-trash"></i>  Hapus</a>
 </div>
